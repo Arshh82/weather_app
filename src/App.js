@@ -1,8 +1,11 @@
 import React from 'react'
+import Weather from './Components/Weather'
 
 const App = () => {
   return (
-    <div>Weather app is running</div>
+    <>
+    <Weather/>
+    </>
   )
 }
 
